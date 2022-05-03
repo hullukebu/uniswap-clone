@@ -14,15 +14,15 @@ We both makes our own version of this Uniswap-clone project. When I did this pro
 
 ## Writer Don Hämäläinen (Hullukebu)
 ---->
-## WE USE IN THIS PROJEXT
+# WE USE IN THIS PROJEXT
 Tailwind CSS, Sanity CMS, Next.js, Solidity, MetaMask - Riskby
 
-## IMPORTANT 
+# IMPORTANT 
 THIS PROJECT IS COPIED FROM YOUTUBE (CLEVER PROGRAMMER Channel) ( https://youtu.be/xXxjRzdYIss ).
 This project just made for studing about code languegas and framework like Next.js and Solidity
 Of course Sanity CMS too.
 
-## IF YOU WANT TO TEST OUR CLONE 
+# IF YOU WANT TO TEST OUR CLONE 
 You must clone this project in your desktop or some folder. 
 
 1. Go to the folder or the path where the project is.
