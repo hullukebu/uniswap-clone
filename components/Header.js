@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import Image from 'next/image'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { AiOutlineDown } from 'react-icons/ai'
 import { HiOutlineDotsVertical } from 'react-icons/hi'
+import { TransactionContext } from '../context/TransactionContext'
 import ethLogo from '../assets/eth.png'
 import uniswapLogo from '../assets/uniswap.png'
 
@@ -23,6 +24,9 @@ const style = {
 
 const header = () => {
   const [selectedNav, setSelectedNav] = useState('swap')
+  const { connectWallet, currentAccount } = useContext(TransactionContext)
+
+  console.log({ connectWallet, currentAccount })
 
   return (
     <div className={style.wrapper}>
@@ -79,18 +83,25 @@ const header = () => {
           </div>
         </div>
 
-        <div
-          onClick={() => connectWallet()}
-          className={`${style.button} ${style.buttonPadding}`}
-        />
-        <div className={`${style.buttonAccent} ${style.buttonPadding}`}>
-          Coneect Wallet
-        </div>
-      </div>
+        {currentAccount ? (
+          <div className={`${style.button} ${style.buttonPadding}`}>
+            <div className={style.buttonTextContainer}>{userName}</div>
+          </div>
+        ) : (
+          <div
+            onClick={() => connectWallet()}
+            className={`${style.button} ${style.buttonPadding}`}
+          >
+            <div className={`${style.buttonAccent} ${style.buttonPadding}`}>
+              Coneect Wallet
+            </div>
+          </div>
+        )}
 
-      <div className={`${style.button} ${style.buttonPadding}`}>
-        <div className={`${style.buttonIconContainer} mx-2`}>
-          <HiOutlineDotsVertical />
+        <div className={`${style.button} ${style.buttonPadding}`}>
+          <div className={`${style.buttonIconContainer} mx-2`}>
+            <HiOutlineDotsVertical />
+          </div>
         </div>
       </div>
     </div>
