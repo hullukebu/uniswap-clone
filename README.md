@@ -1,7 +1,7 @@
 ## Don (Hullukebu): 
 
 This is my first Web 3.0 project and first project with partner (Miika (Syrde)). 
-We both makes our own version of this Uniswap-clone project. I learn so much about Next.js and Solidity.
+We both makes our own version of this Uniswap-clone project. When I did this project, I learned a lot of important skills related to it Next.js and Solidity.
 
 
 
