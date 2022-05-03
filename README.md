@@ -1,23 +1,43 @@
-# Next.js + Tailwind CSS Example
+## Don (Hullukebu): 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is my first Web 3.0 project and first project with partner (Miika (Syrde)). 
+We both makes our own version of this Uniswap-clone project. I learn so much about Next.js and Solidity.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+
+## Writer Don Hämäläinen (Hullukebu)
+---->
+## WE USE IN THIS PROJEXT
+Tailwind CSS, Sanity CMS, Next.js, Solidity, MetaMask - Riskby
+
+## IMPORTANT 
+THIS PROJECT IS COPIED FROM YOUTUBE (CLEVER PROGRAMMER Channel) ( https://youtu.be/xXxjRzdYIss ).
+This project just made for studing about code languegas and framework like Next.js and Solidity
+Of course Sanity CMS too.
+
+## IF YOU WANT TO TEST OUR CLONE 
+You must clone this project in your desktop or some folder. 
+
+1. Go to the folder or the path where the project is.
+2. Run [' npm install ' ] or [ yarn ]
+3. Probably you have to install npm modules and VS code plugins too. 
+- Solidity (in VS Code)
+- Sanity ( 'npm install -g @sanity/cli' and ' npm install @sanity/client ') 
+- Tailwind CSS ( ' npm install tailwindcss ')
+- React Icons ( ' npm install react-icons ')
+- Modal ( ' npm install react-modal ')
+- Emotion React ( ' npm install @emotion/react ')
+- Moonloader ( ' npm install react-spinners ')
+- Ethers ( ' npm install ethers ')
+
+4. Then you should be able to do [' npm run dev '] or [' yarn dev ']
+
+
+If you get some errors go watch the youtube video by Clever Programmer https://youtu.be/xXxjRzdYIss
