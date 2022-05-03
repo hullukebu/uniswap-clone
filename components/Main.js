@@ -6,10 +6,7 @@ import { useContext } from 'react'
 import { TransactionContext } from '../context/TransactionContext'
 import Modal from 'react-modal'
 import { useRouter } from 'next/router'
-
-{
-  /* import TransactionLoader from './TransactionLoader' */
-}
+import TransactionLoader from './TransactionLoader'
 
 Modal.setAppElement('#__next')
 
@@ -99,7 +96,7 @@ const Main = () => {
       </div>
 
       <Modal isOpen={!!router.query.loading} style={customStyles}>
-        {/* <TransactionLoader /> */}
+        <TransactionLoader />
       </Modal>
     </div>
   )
