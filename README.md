@@ -14,7 +14,7 @@ We both makes our own version of this Uniswap-clone project. When I did this pro
 
 ## Writer Don Hämäläinen (Hullukebu)
 ---->
-# WE USE IN THIS PROJEXT
+### WE USE IN THIS PROJEXT
 Tailwind CSS, Sanity CMS, Next.js, Solidity, MetaMask - Riskby
 
 # IMPORTANT 
